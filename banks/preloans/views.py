@@ -22,6 +22,29 @@ def services(request):
     context = {}
     return render(request, 'preloans/services.html', context)
     
+def contacts(request):
+    context = {}
+    return render(request, 'preloans/contacts.html', context)
+    
+def carloan(request):
+    context = {}
+    return render(request, 'preloans/carloan.html', context)
+
+def eduloan(request):
+    context = {}
+    return render(request, 'preloans/eduloan.html', context)
+
+def homeloan(request):
+    context = {}
+    return render(request, 'preloans/homeloan.html', context)
+    
+def personalloan(request):
+    context = {}
+    return render(request, 'preloans/personalloan.html', context)
+    
+
+    
+
 
     
 
