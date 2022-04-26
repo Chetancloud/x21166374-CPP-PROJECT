@@ -25,7 +25,7 @@ SECRET_KEY = 'c@nzbifcm#(b&1po!xd$in%njwa$8*82r2%mnqm=8+8o+a(#)o'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['a83f19de025e4dbc85471f34bb6f3a8f.vfs.cloud9.eu-west-1.amazonaws.com']
+ALLOWED_HOSTS = ['cppfinalproject-env.eba-u6p53geg.eu-west-3.elasticbeanstalk.com']
 
 
 # Application definition
