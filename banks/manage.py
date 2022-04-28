@@ -1,5 +1,7 @@
 #!/usr/bin/env python
+"""OS module."""
 import os
+"""System module."""
 import sys
 
 if __name__ == '__main__':
