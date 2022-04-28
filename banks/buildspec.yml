@@ -11,7 +11,7 @@ phases:
             commands:
                 - python --version
                 - pylint --disable=all $CODEBUILD_SRC_DIR/*.py
-                - pylint --disable=all $CODEBUILD_SRC_DIR/collegebuddies/*.py
+                - pylint --disable=all $CODEBUILD_SRC_DIR/banks/*.py
 artifacts:
     files:
     - '**/*'
